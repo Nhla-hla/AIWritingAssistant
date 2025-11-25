@@ -7,6 +7,36 @@
     <title>AI Writing Assistant</title>
 </head>
 <body>
+    <div class="container">
+      <h1>AI Writing Assistant ✍️</h1>
+
+      <textarea
+        id="userInput"
+        placeholder="Paste or type your text here..."
+      ></textarea>
+
+      <div class="options">
+        <label>
+          <input type="radio" name="task" value="summarize" checked />
+          Summarize
+        </label>
+        <label>
+          <input type="radio" name="task" value="rewrite" />
+          Rewrite
+        </label>
+        <label>
+          <input type="radio" name="task" value="simplify" />
+          Simplify
+        </label>
+      </div>
+
+      <button id="generateBtn">Generate</button>
+
+      <div class="output-box" id="outputBox">
+        <h3>Result</h3>
+        <p id="outputText"></p>
+      </div>
+    </div>
  <script src="script.js"></script>   
 </body>
 </html>
