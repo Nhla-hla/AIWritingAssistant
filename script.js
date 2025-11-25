@@ -3,7 +3,7 @@ const userInput = document.getElementById("userInput");
 const outputBox = document.getElementById("outputBox");
 const outputText = document.getElementById("outputText");
 
-const apiKey = "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";
+const apiKey = "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";
 const summarizeModel = "facebook/bart-large-cnn";
 const rewriteModel = "Vamsi/T5_Paraphrase_Paws";
 const simplifyModel = "t5-base";
